@@ -10,9 +10,8 @@
 ### 🎯 核心功能 (Key Features)
 * **逆透視變換 (IPM):** 利用透視變換矩陣，將 2D 影像還原為鳥瞰視角，建立線性距離關係。
 * **動態比例尺校正 (Dynamic Scale Calibration):** 使用 **霍夫變換 (Hough Transform)** 自動偵測道路標線（虛線），動態計算「像素/公尺」的比例尺，適應不同路段。
-* **強健的物件追蹤 (Robust Object Tracking):** 結合連通元件分析 (Connected Components) 與最近鄰搜索算法，穩定追蹤車輛軌跡。
+* **物件追蹤 (Object Tracking):** 結合連通元件分析 (Connected Components) 與最近鄰搜索算法，穩定追蹤車輛軌跡。
 * **訊號平滑化 (Signal Smoothing):** 實作 **指數移動平均 (EMA)** 濾波器，有效去除偵測雜訊，讓速度數值更穩定。
-* **物件導向設計 (OOP):** 採用模組化的 `VehicleSpeedEstimator` 類別設計，程式碼結構清晰，易於維護與擴充。
 
 ## 🛠️ 安裝與環境 (Installation)
 
